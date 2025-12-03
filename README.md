@@ -46,14 +46,14 @@ docker pull --platform linux/arm64 cleanstart/minio:latest
 ```
 
 **
-### Resources & Documentation  
-Essential links and resources for further information:
+### 
+### Resources
 
-- CleanStart Website: https://www.cleanstart.com
+- Official Documentation: https://min.io/docs/
 - View Provenance, Specifications, SBOM, Signature at: https://images.cleanstart.com/images/minio
+- Docker Hub: https://hub.docker.com/r/cleanstart/minio
 - CleanStart All Images: https://images.cleanstart.com
-- CleanStart Community Images: https://hub.docker.com/u/cleanstart
-- Other location for Community image: https://hub.docker.com/r/cleanstart/minio
+- CleanStart All Community Images: https://hub.docker.com/u/cleanstart
 
 ---
 
