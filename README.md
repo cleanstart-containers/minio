@@ -36,22 +36,22 @@ Typical scenarios where this container excels:
 
 Download the runtime container images:
 ```bash
-docker pull cleanstart/minio:latest
-docker pull cleanstart/minio:latest-dev
+docker pull ghcr.io/cleanstart-containers/minio:latest
+docker pull ghcr.io/cleanstart-containers/minio:latest-dev
 ```
 
 ### Interactive Development
 
 Start interactive session for development:
 ```bash
-docker run --rm -it --entrypoint /bin/sh cleanstart/minio:latest-dev
+docker run --rm -it --entrypoint /bin/sh ghcr.io/cleanstart-containers/minio:latest-dev
 ```
 
 ### Container Start
 
 Start the container:
 ```bash
-docker run --rm -it --name minio-dev cleanstart/minio:latest
+docker run --rm -it --name minio-dev ghcr.io/cleanstart-containers/minio:latest
 ```
 
 ---
@@ -68,8 +68,8 @@ docker run --rm -it --name minio-dev cleanstart/minio:latest
 
 ### Multi-Platform Images
 ```bash
-docker pull --platform linux/amd64 cleanstart/minio:latest
-docker pull --platform linux/arm64 cleanstart/minio:latest
+docker pull --platform linux/amd64 ghcr.io/cleanstart-containers/minio:latest
+docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/minio:latest
 ```
 
 ---
